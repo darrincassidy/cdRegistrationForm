@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        <label>First Name: *</label>
+        <input type="text" name = "first_name">
+    </div>
+    <div>
+        <label>Last Name: *</label>
+        <input type="text" name = "last_name">
+    </div>
+    <div>
+        <label>Email Address: *</label>
+        <input type="email" name = "email">
+    </div>
+    <div>
+        <label>Password: *</label>
+        <input type="password" name = "password">
+    </div>
+    <div>
+        <label>Email Confirm Password: *</label>
+        <input type="password" name = "password">
+    </div>
+    <div>
+        <label>Birthday: *</label>
+        <input type="date" name = "date">
+    </div>
+    <p>Gender Identity:</p>
+    <div>
+        <input type="radio" name="Male">
+        <label>Male</label>
+        <input type="radio" name="Female">
+        <label>Female</label>
+        <input type="radio" name="Non-Binary">
+        <label>Non-Binary</label>
+        <input type="radio" name="I Prefer Not to Answer">
+        <label>I Prefer Not to Answer</label>
+    </div>
+    <div>
+        <p>A short description about myself:</p>
+        <textarea name="comment" cols="40" rows="6"></textarea>
+    </div>
+    <div>
+        <label>Favorite Language</label>
+        <select name="language">
+            <option>JavaScript</option>
+            <option>C#</option>
+            <option>Java</option>
+            <option>Go</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="accept">
+        <label>Yes, I would like to receive period email updates<label></label>
+    </div>
+    <div>
+        <input type="submit" value="Create Account" >
+        <p>
+            *Indicates a required field
+        </p>
+    </div>
+</body>
+</html>
